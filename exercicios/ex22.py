@@ -1,0 +1,5 @@
+nome = str(input("Digite o seu nome completo."))
+print("Nome em minúsculo:", nome.lower())
+print("Nome em maiúsculo:", nome.upper())
+print('Total de letras (sem espaços):', len(nome.replace(' ', '')))
+print("Contagem do primeiro nome:", len(nome.split()[0]))
